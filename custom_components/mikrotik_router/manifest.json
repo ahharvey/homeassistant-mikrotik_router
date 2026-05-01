@@ -1,17 +1,17 @@
 {
     "domain": "mikrotik_router",
-    "name": "Mikrotik Router",
+    "name": "Mikrotik Router (ahharvey fork)",
     "config_flow": true,
     "iot_class": "local_polling",
-    "documentation": "https://github.com/tomaae/homeassistant-mikrotik_router",
-    "issue_tracker": "https://github.com/tomaae/homeassistant-mikrotik_router/issues",
+    "documentation": "https://github.com/ahharvey/homeassistant-mikrotik_router",
+    "issue_tracker": "https://github.com/ahharvey/homeassistant-mikrotik_router/issues",
     "dependencies": [],
     "requirements": [
         "librouteros>=3.4.1",
         "mac-vendor-lookup>=0.1.12"
     ],
     "codeowners": [
-        "@tomaae"
+        "@ahharvey"
     ],
-    "version": "0.0.0"
+    "version": "1.0.0-andy"
 }
